@@ -1,5 +1,41 @@
-#main{
+body{
+width:100vw;
+height: 100vh;
+background: whitesmoke;
+color: #728C4A;
+
+}
+
+#baixo{
     display: flex;
-    align-items: center;
+    width: 100%;
+  
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
     justify-content: center;
+}
+#cima{
+    height: 10%;
+    text-align: center;
+}
+
+.item{
+   text-align: center;
+   border-radius: 10px;
+   background: #F2F1E9;
+   border: 10px solid #728C4A;
+    padding-bottom: 2%;
+    width: 50%;
+
+}
+
+
+
+i{
+width: 100%;
+}
+
+iframe{
+    margin-top: 8px;
 }
